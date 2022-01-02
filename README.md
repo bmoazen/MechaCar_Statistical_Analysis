@@ -17,7 +17,7 @@ A plot of fit residual (measured mpg - predicted mpg) as a function of car mpg i
 [Link](/Results/LinRegFitResiduals.PNG) <br />
 
 ## Summary Statistics on Suspension Coils
-The total summary statistics for the PSI in the suspension coils is given below, as well as the summary statistics grouoed by manufacturing lot.<br />
+The total summary statistics for the PSI in the suspension coils is given below, as well as the summary statistics grouped by manufacturing lot.<br />
 ![](/Results/TotalSummary.PNG) <br />
 [Link](/Results/TotalSummary.PNG) <br />
 ![](/Results/LotSummaryStats.PNG) <br />
