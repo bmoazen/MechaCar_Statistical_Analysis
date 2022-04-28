@@ -11,7 +11,7 @@ The results of using a linear regression model on the MechaCar_mpg data is shown
 ![](/Results/LinRegSummary.PNG) <br />
 [Link](/Results/LinRegSummary.PNG)<br />
 
-From the column labeled as Pr(>|t|), we can see that vehicle length and ground clearance are unlikely to provide random amounts of variance to the linear model. This implies that these variables have a significant impact on the miles per gallon statistic. However, since the intercept itself is statistically significant (Pr(>|t|) = 5e-08), some of the variables may need scaling or transfroming to help the model become more predictive.<br />
+From the column labeled as Pr(>|t|), we can see that vehicle length and ground clearance are unlikely to provide random amounts of variance to the linear model. This implies that these variables have a significant impact on the miles per gallon statistic. However, since the intercept itself is statistically significant (Pr(>|t|) = 5e-08), some of the variables may need scaling or transforming to help the model become more predictive.<br />
 A plot of fit residual (measured mpg - predicted mpg) as a function of car mpg is shown below. It is plain to see that the linear model is predicting too high for cars with lower mpg and too low for cars with higher mpg. Indeed, the correlation coefficient between measured mpg and predicted mpg is 0.54, indicating a moderate positive correlation. Since there is a correlation between the mpg and the fit residuals, the linear model does not adequatly descibe the data.
 ![](/Results/LinRegFitResiduals.PNG) <br />
 [Link](/Results/LinRegFitResiduals.PNG) <br />
